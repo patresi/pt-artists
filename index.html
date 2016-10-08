@@ -3,7 +3,7 @@
     <head>
       <meta charset="utf-8">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
-      <title>PT Artists</title>
+      <title>Arte Portuguesa no Feminino</title>
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -54,6 +54,10 @@
         padding: 0px 15px 15px 15px;
       }
 
+      #figure-caption {
+        text-align: right;
+      }
+
       .navbar {
         margin-bottom: 0;
       }
@@ -68,7 +72,7 @@
       <nav class="navbar navbar-default" id="header">
         <div class="container-fluid">
           <div class="navbar-header">
-            <h3>Page title</h3>
+            <h3>A Arte Portuguesa no Feminino</h3>
           </div>
         </div>
       </nav>
@@ -80,8 +84,8 @@
             </div>
             <div id="bio-container" class="col-sm-3 col-md-3 col-lg-3">
               <div id="bio">
-                <h1>Some introductory text</h1>
-                <p>lorem ipsum</p>
+                <h1>A Arte Portuguesa no Feminino</h1>
+                <p>As artistas portuguesas.</p>
               </div>
             </div>
         </row>
@@ -98,7 +102,7 @@
         var cy = window.cy = cytoscape({
           container: document.getElementById('cy'),
           layout: {
-            name: 'cose',
+            name: 'cose-bilkent',
           },
           style: cytoscape.stylesheet()
           .selector('node').css({
